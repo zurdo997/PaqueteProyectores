@@ -18,4 +18,7 @@ public class GestorDePaquetesDeProyectores {
         this.nombreEmpresa = nombreEmpresa;
     }
     
+    public void agregarPaquete(PaqueteProyectores paqueteNuevo) {
+        
+    }
 }
