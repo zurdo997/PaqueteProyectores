@@ -2,12 +2,11 @@ package paqueteproyectores;
 
 import java.util.ArrayList;
 
-public class GestorDePaquetesDeProyectores extends PaqueteProyectores {
+public class GestorDePaquetesDeProyectores {
     private ArrayList<PaqueteProyectores> paquetes = new ArrayList<>();
     private String nombreEmpresa;
 
-    public GestorDePaquetesDeProyectores(String nombreEmpresa, int codPaqueteDeProyectores, String destinatario, String destino, float costoEnvio) {
-        super(codPaqueteDeProyectores, destinatario, destino, costoEnvio);
+    public GestorDePaquetesDeProyectores(String nombreEmpresa) {
         this.nombreEmpresa = nombreEmpresa;
     }
 
